@@ -37,6 +37,7 @@ public class Task1 {
 		} else {
 			System.out.println("please enter correct number");
 		}
+		sc.close();
 	}
 
 }
