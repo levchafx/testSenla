@@ -13,6 +13,7 @@ public class Task3 {
 		if (sc.hasNextLine()) {
 			s = sc.nextLine();
 			if (!s.isEmpty()) {
+				s.trim();
 				List<String> words = Arrays.asList(s.split(" "));
 				System.out.println("There are " + words.size() + " words in sentence");
 				Collections.sort(words);
