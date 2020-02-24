@@ -1,4 +1,4 @@
-package testSenla;
+package task4;
 
 import java.util.Arrays;
 import java.util.List;
